@@ -7,6 +7,8 @@
 
 site_name="example_1"
 h5_file=/path/to/h5_file/example_file.h5
+h5_file=/path/to/h5_file/*.h5 # For multiple hdf5 files (e.g. 20-year NOW-23 dataset)
+
 wrg_file=/path/to/wrg_file/output.wrg
 hub_height=160 # Hub height to produce WRG
 resolution=2   # Needs to match resolution of WRF data
